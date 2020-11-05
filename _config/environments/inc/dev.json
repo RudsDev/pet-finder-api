@@ -1,0 +1,16 @@
+{
+    "nome": "ambiente desenvolvimento",
+    "url": "http://localhost:4000",
+		"postgres": {
+			"host": "localhost",
+			"database" : "pet_finder",
+			"username" : "postgres",
+			"password" : "1234",
+			"port": 5432
+		},
+    "jwt": {
+        "salt_key": "^@B1g%|M4C*",
+        "time_expires_token": "24h"
+    },
+    "port": 4000
+}

@@ -1,0 +1,16 @@
+{
+	"nome": "Ambiente Desenvolvimento Docker",
+	"url": "http://172.17.0.2:4000",
+	"postgres": {
+		"host": "172.17.0.4",
+		"database" : "pet_finder",
+		"username" : "postgres",
+		"password" : "1234",
+		"port": 5432
+	},
+	"jwt": {
+			"salt_key": "^@B1g%|M4C*",
+			"time_expires_token": "24h"
+	},
+	"port": 4000
+}
