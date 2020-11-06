@@ -10,7 +10,7 @@ node ('docker-slave-0') {
 			fi &&\
 			sudo docker run -p:4000:4000 -d --name pet_finder ruds/pet-finder-dev
 		'''
-		sleep(3)
+		sleep(5)
 	}
 	stage('Test') {
 		node('master') {
